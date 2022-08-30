@@ -1,8 +1,8 @@
-[class='already-learned'] ul li {
+[class='already-learned'] ul {
   background-color: green;
   color: white;
 }
-[class='to-be-learned'] ul li {
+[class='to-be-learned'] ul {
   background-color: orange;
   color: green;
 }
