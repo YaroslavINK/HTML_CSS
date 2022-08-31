@@ -1,8 +1,8 @@
-[class='already-learned'] li {
+[class='already-learned'] ol {
   background-color: green;
   color: white;
 }
-[class='to-be-learned'] li {
+[class='to-be-learned'] ol {
   background-color: orange;
   color: green;
 }
