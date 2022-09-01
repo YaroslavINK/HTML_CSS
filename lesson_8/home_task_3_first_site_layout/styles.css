@@ -1,11 +1,10 @@
 .marginpadding {
-  box-sizing:border-box
   border: 2px solid black;
-  margin: 50px;
   padding: 50px;
 }
 .first {
   background-color: blue;
+  margin: 50px;
 }
 .second {
   background-color: yellow;
