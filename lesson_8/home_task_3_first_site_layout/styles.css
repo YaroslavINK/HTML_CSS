@@ -1,0 +1,17 @@
+.marginpadding {
+  border: 2px solid black;
+  margin: 50px;
+  padding: 50px;
+}
+.first {
+  background-color: blue;
+}
+.second {
+  background-color: yellow;
+}
+.third {
+  background-color: green;
+}
+.fourth {
+  background-color: pink;
+}
