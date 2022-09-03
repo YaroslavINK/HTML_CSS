@@ -10,8 +10,7 @@
 }
 .nav-list {
   height: 40px;
-  line-height: 40px;
-  margin: 0px;
+  line-height: 10px;
   margin-left: 16px;
 }
 .nav-item {
