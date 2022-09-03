@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .block_height {
   height: 200px;
 }
