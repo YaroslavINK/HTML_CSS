@@ -11,10 +11,10 @@
 .nav-list {
   margin: 0px;
   height: 40px;
+  line-height: 40px;
 }
 .nav-item {
   display: inline-block;
-  margin-top: 10px;
   margin-left: 16px;
   color: white;
 }
@@ -27,8 +27,8 @@
   height: 200px;
   background-color: aquamarine;
   position: relative;
-  left: 50%;
-  top: 400px;
+  left: calc(50%);
+  top: calc(400px);
 }
 .ear {
   width: 40px;
