@@ -3,21 +3,26 @@
 }
 .block_height {
   height: 200px;
-  width: 200px;
-  float: left;
+  position: absolute;
+  width: 200%;
 }
+
 .block_red {
   background-color: red;
 }
 .block_green {
   background-color: green;
+  left: 20%;
 }
 .block_blue {
   background-color: blue;
+  left: 40%;
 }
 .block_yellow {
   background-color: yellow;
+  left: 60%;
 }
 .block_black {
   background-color: black;
+  left: 80%;
 }
