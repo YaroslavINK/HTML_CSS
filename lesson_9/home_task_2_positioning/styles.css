@@ -27,7 +27,7 @@
   height: 200px;
   background-color: aquamarine;
   position: absolute;
-  left: calc(100% - 280px);
+  left: calc(50% - 140px);
   top: calc(400px);
 }
 .ear {
