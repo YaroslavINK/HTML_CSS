@@ -1,10 +1,9 @@
 html {
+  margin: 32px;
   font-family: Roboto, sans-serif;
   font-size: 18px;
 }
-body {
-  margin: 32px;
-}
+
 h1 {
   word-spacing: 20px;
   text-transform: uppercase;
@@ -24,4 +23,7 @@ a {
 }
 em {
   color: grey;
+}
+* {
+  box-sizing: border-box;
 }
