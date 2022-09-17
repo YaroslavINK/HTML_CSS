@@ -23,8 +23,10 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
-.form-input {
+.form-control {
   margin-bottom: 8px;
+}
+.form-input {
   min-width: 100%;
   height: 32px;
   border-radius: 4px;
@@ -49,6 +51,4 @@ body {
   text-transform: uppercase;
   color: white;
   border-radius: 4px;
-  bor
 }
-
