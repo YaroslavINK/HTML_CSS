@@ -4,7 +4,7 @@
   text-transform: uppercase;
   animation: blinking 2s;
   animation-iteration-count: infinite;
-  transition-timing-function: linear;
+  animation-timing-function: linear;
 }
 .rect {
   position: absolute;
