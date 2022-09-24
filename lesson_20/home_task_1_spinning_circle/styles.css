@@ -41,9 +41,6 @@
 }
 
 @keyframes border_move {
-  0% {
-    border-color: lightgrey;
-  }
   25% {
     border-top-color: black;
   }
