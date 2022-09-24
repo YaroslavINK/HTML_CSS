@@ -47,5 +47,6 @@ body {
   to {
     transform: translate(2000px);
     animation-timing-function: ease;
+    animation-fill-mode: forwards;
   }
 }
