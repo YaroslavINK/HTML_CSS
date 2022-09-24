@@ -24,7 +24,7 @@
   border: 4px solid lightgray;
   margin-bottom: 8px;
   border-radius: 50%;
-  border-top-color: black;
+
   animation: border_move 2s linear infinite;
 }
 
@@ -41,6 +41,12 @@
 }
 
 @keyframes border_move {
+  0% {
+    border-color: lightgrey;
+  }
+  25% {
+    border-top-color: black;
+  }
   50% {
     border-right-color: black;
   }
