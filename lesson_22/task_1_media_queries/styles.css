@@ -20,6 +20,8 @@ body {
   .square {
     background-color: #8a2be2;
   }
+}
+@media (orientation: landscape) {
   .container {
     display: flex;
   }
