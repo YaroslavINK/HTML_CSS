@@ -99,8 +99,11 @@ section,
   .main {
     flex-direction: column;
   }
+  .navigation {
+    width: 20%;
+  }
   .section {
-    flex: 1;
+    width: 80%;
   }
   .news {
     width: 100%;
