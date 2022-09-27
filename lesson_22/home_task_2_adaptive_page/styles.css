@@ -106,7 +106,7 @@ section,
     width: 100%;
   }
 }
-@media (min-width: 901px) and (max-width: 1200px) {
+@media screen and (min-width: 901px) {
   .main-900px {
     display: flex;
     width: 80%;
