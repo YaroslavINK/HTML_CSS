@@ -1,0 +1,35 @@
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+
+$small-background-color: #ff7f50;
+$medium-background-color: #8a2be2;
+$large-backround-color: #c47;
+
+@mixin for-small {
+  @media screen and (max-width: $sm-1) {
+    @content;
+  }
+}
+
+@mixin for-medium {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin for-large {
+  @media screen and (min-width: $lg) {
+    @content;
+  }
+}
+@mixin orientation-landscape {
+  @media (orientation: landscape) {
+    @content;
+  }
+}
+@mixin orientation-portrait {
+  @media (orientation: portrait) {
+    @content;
+  }
+}
