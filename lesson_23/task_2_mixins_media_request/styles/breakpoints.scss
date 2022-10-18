@@ -7,30 +7,23 @@ $small-background-color: #8a2be2;
 $medium-background-color: #a61;
 $large-backround-color: #c47;
 
-@mixin for-small {
-  @media screen and (max-width: $sm) {
-    @content;
-  }
-}
-
-@mixin for-medium {
+@mixin for-small-screen {
   @media screen and (min-width: $sm) {
     @content;
   }
 }
-
-@mixin for-large {
+@mixin for-medium-screen {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
+@mixin for-large-screen {
   @media screen and (min-width: $lg) {
     @content;
   }
 }
-@mixin orientation-landscape {
-  @media (orientation: landscape) {
-    @content;
-  }
-}
-@mixin orientation-portrait {
-  @media (orientation: portrait) {
+@mixin for-landscape {
+  @media screen and (orientation: landscape) {
     @content;
   }
 }

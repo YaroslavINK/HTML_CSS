@@ -4,38 +4,30 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.container {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @include for-landscape {
+    flex-direction: row;
+  }
 }
 .square {
   width: 100px;
   height: 100px;
-  margin: 8px;
   background-color: $extra-small-background-color;
+  margin: 8px;
 
-  @include for-small {
+  @include for-small-screen {
     background-color: $small-background-color;
   }
-
-  @include for-medium {
+  @include for-medium-screen {
     background-color: $medium-background-color;
   }
-  @include for-large {
+  @include for-large-screen {
     background-color: $large-backround-color;
-  }
-}
-@include orientation-landscape {
-  .container {
-    display: flex;
-  }
-}
-
-@include orientation-portrait {
-  .container {
-    display: flex;
-    flex-direction: column;
   }
 }
