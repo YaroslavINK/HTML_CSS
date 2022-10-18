@@ -14,7 +14,11 @@ body {
   width: 100px;
   height: 100px;
   margin: 8px;
-  background-color: $small-background-color;
+  background-color: $extra-small-background-color;
+
+  @include for-small {
+    background-color: $small-background-color;
+  }
 
   @include for-medium {
     background-color: $medium-background-color;
